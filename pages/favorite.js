@@ -1,15 +1,15 @@
 import Head from 'next/head'
 import Layout from '../src/components/layout'
 
-const Home = () => {
+const Favorite = () => {
   return (
     <Layout>
       <Head>
-        <title>Home</title>
+        <title>Favorite</title>
       </Head>
-      <h1>Home</h1>
+      <h1>Favorite</h1>
     </Layout>
   )
 }
 
-export default Home
+export default Favorite
